@@ -2,7 +2,7 @@
 """ Class FileStorage """
 from json import dump, load
 from os.path import exists
-from models import BaseModel
+from models.base_model import BaseModel
 from models import User
 from models import Place
 from models import City
